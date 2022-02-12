@@ -1,0 +1,44 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    /* font family add elə */
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.youtube-logo{
+    height: 20px;
+}
+.search-bar{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 2rem 0 4rem;
+}
+.search-input{
+     display: flex; 
+    width: 100%;
+}
+.menu-icons{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 5px;
+}
+.menu-channel-icon{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.thumbnail-image{
+    width: 450px;
+    height: 250px;
+}
+.channel-icon{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
